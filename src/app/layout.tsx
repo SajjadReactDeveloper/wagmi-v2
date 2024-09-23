@@ -5,8 +5,8 @@ import type { ReactNode } from 'react'
 import { cookieToInitialState } from 'wagmi'
 import './globals.css'
 
-import { getConfig } from '../wagmi'
 import { Providers } from './providers'
+import { getConfig } from './config'
 
 const inter = Inter({ subsets: ['latin'] })
 
